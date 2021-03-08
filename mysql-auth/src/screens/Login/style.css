@@ -1,0 +1,63 @@
+.loginCard {
+    border-style: none;
+    margin: 150px auto;
+    max-width: 500px;
+  }
+  
+  .formContainer {
+    border-style: none;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 5px 5px #ccc;
+  }
+  
+  .formHeader {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .form {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 30px 0;
+  }
+  
+  .formField {
+    display: grid;
+    grid-auto-flow: row;
+  }
+  
+  .formLabel {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    display: block;
+  }
+  
+  .formInput {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: 18px;
+  }
+  .loginButtonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .submitButton {
+    background-color: #000080;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .submitButton:hover {
+    cursor: pointer;
+    background-color: blue;
+  }
