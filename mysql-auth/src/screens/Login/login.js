@@ -84,7 +84,7 @@ const Login = (props)=>{
 
     return(loginState === true ?
         <div className="loginCard">
-        <div className="formHeader">Mongo Auth User Login</div>
+        <div className="formHeader">Mysql Auth User Login</div>
         <div className="formContainer">
           <form  className= "form">
             <div className="formField">
@@ -127,7 +127,7 @@ const Login = (props)=>{
         </div>
       </div> : 
          <div className="loginCard">
-           <div className="formHeader">Mongo Auth User Sign Up</div>
+           <div className="formHeader">Mysql Auth User Sign Up</div>
         <div className="formContainer">
           <form  className= "form">
             <div className="formField">

@@ -1,19 +1,15 @@
 const _ = require("lodash");
 
+const { query } = require("../database");
 
-module.exports.hydrateUser = (record) => {
-  
+module.exports.hydrateUser = async (record) => {
   record.uuid = record.uuid.toString();
 
   // remove id
-  delete record._id;
+  delete record.id;
 
   // remove password
   delete record.password;
-// let newRecord ={
-//     email:record.email,
-//     uuid:record.uuid,
-// }
-//   console.log(newRecord)
-  return newRecord;
+
+  return record;
 };
